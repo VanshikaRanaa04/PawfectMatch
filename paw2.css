@@ -125,6 +125,8 @@ ul {
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
+    margin-inline: unset;
+    margin-left: 20%;
 }
 
 .company-logo img {
@@ -133,6 +135,7 @@ ul {
 
 .nav-links {
     flex-basis: 730px;
+    display: flex;
 }
 
 .nav-links ul {
@@ -144,11 +147,6 @@ ul {
     display: none;
 }
 
-/* header section */
-
-header {
-    padding: 50px var(--padding-inline-section) 0;
-}
 
 .header-section {
     justify-content: center;
@@ -175,7 +173,7 @@ header {
 
 .companies-header {
     text-align: center;
-    margin-block: 30px;
+    margin-block: 20px;
     color: var(--primary-text-color);
 }
 
